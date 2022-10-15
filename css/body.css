@@ -1,0 +1,139 @@
+body{
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.corpo{
+    background-color: #111;
+    width: 2160px;
+    border: 2px solid color:rgb(176, 92, 255);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.abas img{
+    width: 30px;
+}
+
+.corpo .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.corpo .minhas-informacoes img{
+    border-radius: 50px;
+    border: 2px solid rgb(145, 245, 145);
+}
+
+.corpo .minhas-informacoes .nome{
+    font-size: 26px;
+}
+
+.corpo .minhas-informacoes .endereco{
+    font-size: 14px;
+    color: #b8bbc5
+}
+
+.corpo .minhas-informacoes .email{
+    font-size: 14px;
+    color:#b8bbc5
+}
+
+.corpo .conteudo{
+    margin-top: 15px;
+}
+
+.corpo .conteudo .abas{
+    display: flex;
+}
+
+.corpo .conteudo .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.corpo .abas img{
+    width: 30px;
+}
+
+.corpo .abas .aba.selecionado{
+    background-color: #262626;
+}
+
+.corpo .abas .informacoes-abas{
+    background-color: #262626;
+}
+
+.corpo .abas .aba:hover{
+    background-color: #414141;
+}
+
+.corpo .informacao .data{
+    font-size: 16px;
+    padding-top: 10px;
+    /*display: flex;
+    justify-items: center;*/
+    text-align: right;
+}
+
+.informacoes-abas .sub.titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.informacao .sub.titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacao .sub.titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacao .sub.titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .lista{
+   
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display: block;
+}
